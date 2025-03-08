@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+UnchechedExternalCalls,StrictBalanceEquality,TransactionStateDependency,BlockInfoDependency,GreedyContract,DoSUnderExternalInfluence,NestCall,Reentrancy
+0,0,0,0,0,0,0,0
+0,0,0,0,0,1,1,1
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:37de419d881ae5dee90a7df0cbaa59c1afd2f26810eb1d578126b47a98529d57
+size 239
+>>>>>>> 753c8054 (aecond commit)
