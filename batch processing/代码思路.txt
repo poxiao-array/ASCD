@@ -1,0 +1,21 @@
+预处理：
+for循环遍历contracts，判断是否声明pragma：
+	是：判断版本号是否存在：
+		否：移动至none_version目录
+
+	否：移动至none_pragma目录
+
+循环遍历contracts：
+	对sol文件判断版本号
+	solc-select切换版本号
+	执行slither命令读取结果
+
+	判断是否执行成功：匹配filename.sol analyzed...
+	执行失败：
+		移动sol文件至execution_error
+		并保存执行输出结果至detec_res_error
+	执行成功：
+		保存执行结果至detec_res_analyzed
+		匹配执行结果中的漏洞类型：re.find.all
+		循环遍历漏洞类型列表：
+			复制sol文件到对应的漏洞文件夹下

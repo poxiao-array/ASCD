@@ -1,0 +1,1 @@
+{('PUSH', 'PUSH'): 1, ('PUSH', 'MSTORE'): 1, ('MSTORE', 'JUMPDEST'): 1, ('JUMPDEST', 'INVALID'): 1, ('INVALID', 'STOP'): 1}

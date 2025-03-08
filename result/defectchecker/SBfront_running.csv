@@ -1,0 +1,5 @@
+UnchechedExternalCalls,StrictBalanceEquality,TransactionStateDependency,BlockInfoDependency,GreedyContract,DoSUnderExternalInfluence,NestCall,Reentrancy
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
